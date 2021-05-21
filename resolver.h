@@ -40,5 +40,5 @@ u_short query_process(u_char *buf, u_short bias, struct query *q);
 u_short RR_process(u_char *buf, u_short bias, struct RR *rr);
 void recv_process(u_char *buf, struct message* m);
 void send_process(u_char *buf, struct message* m);
-// void resolve(char *in_buffer, char *out_buffer, struct node *internal_cache, struct node *external_cache);
+// void resolve(char *in_buffer, char *out_buffer, struct node *internal_cache, struct node *external_cache);//
 #endif

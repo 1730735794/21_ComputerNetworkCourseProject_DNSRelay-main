@@ -34,7 +34,7 @@ u_char get_name(u_char * destination, u_char * buf, u_short bias)
             bias += buf[bias] + 1;
         }
     }
-    destination[len] = 0;
+    destination[len] = 0;//222
 
     printf("query_name:");
     for (int i = 0; i <= len; i++)
